@@ -399,7 +399,8 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(4rem, 18vw, 5.6rem);
+    max-width: 100%;
+    font-size: clamp(3.6rem, 15vw, 4.35rem);
   }
 
   .visual-grid {
