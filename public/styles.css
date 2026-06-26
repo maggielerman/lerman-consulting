@@ -395,13 +395,20 @@ h3 {
 }
 
 @media (max-width: 560px) {
+  .site-header {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
   .brand span {
     font-size: 0.96rem;
   }
 
   nav {
     width: 100%;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 22px;
   }
 
   .hero-copy,
@@ -409,8 +416,8 @@ h3 {
   .actions,
   .visual,
   .visual-grid {
-    width: 100%;
-    max-width: 100%;
+    width: calc(100vw - 40px);
+    max-width: calc(100vw - 40px);
   }
 
   h1 {
