@@ -23,6 +23,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: hidden;
   background: var(--paper);
   color: var(--ink);
   font-family:
@@ -90,6 +91,7 @@ nav a:hover,
 }
 
 .hero-copy {
+  min-width: 0;
   max-width: 760px;
 }
 
@@ -177,6 +179,7 @@ h3 {
 
 .visual {
   position: relative;
+  min-width: 0;
   min-height: 520px;
   display: grid;
   align-items: center;
@@ -195,6 +198,7 @@ h3 {
 
 .visual-grid {
   position: relative;
+  min-width: 0;
   display: grid;
   grid-template-columns: 1fr 0.7fr;
   gap: 14px;
