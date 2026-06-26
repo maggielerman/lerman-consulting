@@ -412,12 +412,15 @@ h3 {
   }
 
   .hero-copy,
-  .lead,
   .actions,
   .visual,
   .visual-grid {
-    width: calc(100vw - 40px);
-    max-width: calc(100vw - 40px);
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .lead {
+    max-width: 34ch;
   }
 
   h1 {
